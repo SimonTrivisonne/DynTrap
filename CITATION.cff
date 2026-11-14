@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use DynTrap in your research, please cite the ACS Nano paper below."
+title: "DynTrap"
+type: software
+license: MPL-2.0
+authors:
+  - family-names: Trivisonne
+    given-names: Simon
+  - family-names: Verdi
+    given-names: Carla
+  - family-names: Reticcioli
+    given-names: Michele
+preferred-citation:
+  type: article
+  title: "Machine-Learning Dynamics of Redox-Active Materials: Polaron Diffusion on the TiO2(110) Surface"
+  authors:
+    - family-names: Trivisonne
+      given-names: Simon
+    - family-names: Verdi
+      given-names: Carla
+    - family-names: Reticcioli
+      given-names: Michele
+  journal: "ACS Nano"
+  year: 2026
+  doi: 10.1021/acsnano.6c13435
+  url: "https://doi.org/10.1021/acsnano.6c13435"
