@@ -109,3 +109,34 @@ DynTrap periodically analyzes the VASP trajectory to detect polaron jumps, updat
 - Adjust `timesteps` and `timestepsMD` in `job.sh` to tune:
   - total MD time,
   - resolution at which DynTrap checks for polaron jumps.
+
+---
+<!-- Copy the following sections into the EXISTING repository README.md; do not replace it. -->
+
+## License
+
+DynTrap is distributed under the Mozilla Public License 2.0 (MPL-2.0).
+See [LICENSE](LICENSE) for the complete terms.
+
+The MPL-2.0 permits use, modification, and redistribution, including commercial use.
+If MPL-covered files are modified and distributed, the covered source files must
+remain available under the MPL-2.0. Other software, including VASP, remains subject
+to its own licensing terms. DynTrap does not provide a VASP license.
+
+## Citation
+
+If you use DynTrap in research or build on this code, **please cite**:
+
+S. Trivisonne, C. Verdi, and M. Reticcioli,
+“Machine-Learning Dynamics of Redox-Active Materials: Polaron Diffusion on the TiO2(110) Surface,”
+*ACS Nano* (2026). https://doi.org/10.1021/acsnano.6c13435
+
+The repository also includes a [`CITATION.cff`](CITATION.cff) file for GitHub's
+**Cite this repository** feature.
+
+## Training scripts
+
+Scripts used to prepare/train the models are collected in [`training/`](training/).
+Training datasets, trained models, and other large outputs are not included in
+this repository. See [`training/README.md`](training/README.md) for descriptions,
+requirements, and instructions to adapt the scripts.
